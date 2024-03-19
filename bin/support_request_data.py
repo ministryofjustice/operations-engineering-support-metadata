@@ -29,14 +29,6 @@ sr_types = df.loc[notna_msk, cols]
 print(f'This is a breakdown of yesterdays Support Requests: \n {sr_types}')
 
 
-
-
-
-
-
-
-
-
 # print(yesterday)        # = 2024-03-11
 
 
@@ -76,8 +68,8 @@ print(f'This is a breakdown of yesterdays Support Requests: \n {sr_types}')
 
 # print(df[['2024-03-11']])
 
-#for col in df.columns:
+# for col in df.columns:
 #    print(col)
 
 # Print 2 columns to test working
-#print(df[['Request Type',str_yesterday]].to_string(index=False))
+# print(df[['Request Type',str_yesterday]].to_string(index=False))
